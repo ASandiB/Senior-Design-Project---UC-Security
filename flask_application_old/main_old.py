@@ -1,5 +1,8 @@
-import os
+# Old code that we tried to implement a live feed on the main / page.
+# We deployed this code on Google Cloud Run services, but chose not to use it for the final project
+# Writted and implemented by Anthony Sandi
 
+import os
 from flask import Flask, Response, render_template_string, request, jsonify
 import base64
 import time
