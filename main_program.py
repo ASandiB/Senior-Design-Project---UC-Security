@@ -1,6 +1,7 @@
 # This is our main file for our project as it handles almost all the
 # bluetooth, facial recognition, and webapp communication on our system.
 # How we trained the model is on the other file called training_model.py
+# Written and implemented by Anthony Sandi
 import cv2
 import numpy as np
 import pickle
