@@ -1,5 +1,8 @@
-import os
+# This code was deployed on Google Cloud Run services to view the door sensor times
+# Unfortunately we weren't able to deploy the live frame on this method, so / is empty.
+# Written and implemented by Anthony Sandi
 
+import os
 from flask import Flask, Response, render_template_string, request, jsonify
 import base64
 import time
